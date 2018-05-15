@@ -14,6 +14,7 @@ chroot_list_enable=YES
 chroot_list_file=/etc/vsftpd.chroot_list
 
 二 创建用户的时候不能用/usr/nologin ,不知道为什么，暂时先记下，以后再说
+三 添加用户 用adduser xxx passwd xxx 即可
 */
 # 配置文件 vsftpd.conf
 
